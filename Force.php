@@ -25,7 +25,8 @@ class Force implements ForceInterface
     [
         'options'   => ['gz', 'bz', 'lzf', 'rar', 'zip', 'zlib'],
         'namespace' => 'ZN\Compression\Drivers',
-        'default'   => 'ZN\Compression\CompressionDefaultConfiguration'
+        'default'   => 'ZN\Compression\CompressionDefaultConfiguration',
+        'config'    => 'Storage:compression'
     ];
 
     /**
